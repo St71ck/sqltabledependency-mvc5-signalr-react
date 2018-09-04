@@ -1,0 +1,39 @@
+{
+  "name": "signalr-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SignalR",
+  "main": "./dist/bundle.js",
+  "cleanSrc": "rimraf dist",
+  "scripts": {
+    "webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "stage-0"
+    ]
+  },
+  "author": "Logical Data",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "highcharts": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-jsx-highcharts": "^3.2.1",
+    "react-router-dom": "^4.3.1",
+    "rimraf": "^2.6.2",
+    "signalr-no-jquery": "^0.1.8",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.17.1"
+  }
+}
